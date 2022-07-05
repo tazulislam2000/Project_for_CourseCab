@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container my-2 px-0">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+                <img src="static/img/5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+        <div class="carousel-item">
+              <img src="/static/img/12.jpg" class="d-block w-100" alt="...">
+
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="/static/img/2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+</div>
+
+
+<div class="container my-3">
+<h1 class="my-4 text-center">Explore Our Popular Courses</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+        <img src="/static/img/7.jpg" class="d-block w-100" alt="..."> 
+            <div class="card-body">
+              <p class="card-text">B Unit Accounting Course.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Explore</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Enroll Now</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/img/8.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">C Unit Course (Humanities Department).</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Explore</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Enroll Now</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/img/11.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">IBA Course For All Department.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Explore</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Enroll Now</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+           <img src="/static/img/9.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">D Unit Course.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Explore</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Enroll Now</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+{% endblock body %}
